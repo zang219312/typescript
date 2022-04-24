@@ -4,5 +4,11 @@ function greeter(person: any): string {
 
 const user = 'Type'
 
-const res = greeter(user)
-console.log(res)
+greeter(user)
+
+console.log('abc')
+let count: number = 16
+console.log('count: ', count)
+
+// 原型测试
+// import './test'
